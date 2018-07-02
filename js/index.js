@@ -5,7 +5,7 @@ const c = parseFloat (prompt('Enter C'));
 const result = solveQuadr(a, b, c);
 alert(result);
 
-function solveQuadr(a,b,c){
+function solveQuadr(a,b,c) {
     const d = calcD(a, b, c);
     let x1, x2;
     if (d > 0) {
